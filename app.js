@@ -30,7 +30,10 @@ io.on("connection", function(socket){
     socket.on("send-location", function(data){
         io.emit("receive-location", {id: socket.id, ...data});
     });
-    console.log("connected");
+
+    socket.on("disconnect", function(){
+        io.emit("user-disconnect")
+    })
 });
 
 app.get("/", function (req, res){

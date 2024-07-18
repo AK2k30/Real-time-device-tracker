@@ -1,4 +1,4 @@
-# Real-time Device 
+# Real-time Device Tracker
 
 ![Trip-Replay-2](https://github.com/user-attachments/assets/176356fa-566f-41ef-a4bb-8bd96e7c0eca)
 
